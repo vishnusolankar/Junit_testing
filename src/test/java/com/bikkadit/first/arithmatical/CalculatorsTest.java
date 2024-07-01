@@ -8,14 +8,13 @@ class CalculatorsTest { // Define the test class
 	Calculators c = new Calculators(); // Create an object of the Calculators class
 
 	@Test // Define a test method for the addition method
-	public void additionTest() 
-	{
+	public void additionTest() {
 		/*
 		 * int actualResult = c.Addition(50,20); int expectedResult= 70;
 		 * assertEquals(expectedResult, actualResult);
 		 */
 
-		assertEquals(70, c.Addition(50, 20)); // Assert that the addition method returns the correct result
+		assertEquals(380, c.Addition(50, 330)); // Assert that the addition method returns the correct result
 	}
 
 	@Test // Define a test method for the subtraction method
